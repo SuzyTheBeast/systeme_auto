@@ -1,0 +1,13 @@
+package main.java.vehicule;
+
+public class ScooterEssence extends Scooter{
+	//Attributs supplementaires...
+	
+		public String getDetails() {
+			//Implementation specifique pour les scooters a essence
+		}
+		
+		public boolean checkAvailability() {
+			//Implementation specifique pour les scooters a essence
+		}
+}

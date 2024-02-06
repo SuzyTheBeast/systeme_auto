@@ -1,0 +1,11 @@
+package main.java.commande;
+
+//Classe abstraite pour les commandes
+public class Commande {
+	// Attributs...
+
+    // Méthodes communes à toutes les commandes
+    public abstract double calculerTaxes();
+    public abstract String genererDocuments();
+
+}

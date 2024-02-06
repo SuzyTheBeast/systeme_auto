@@ -1,0 +1,8 @@
+package main.java.commande;
+
+//Classes concretes de factory pour chaque etat de la commande
+public class CommandeFactoryEnCours extends CommandeFactory {
+	 public Commande creerCommande() {
+	        return new CommandeEnCours();
+	    }
+}

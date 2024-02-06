@@ -1,0 +1,7 @@
+package main.java.gestiondocument;
+
+public interface GestionDocument {
+	void stockerDocument(Document document);
+	void convertirHTMLenPDF(Document document);
+	void rechercherDocument(String requete);
+}

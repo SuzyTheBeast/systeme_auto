@@ -1,0 +1,7 @@
+package main.java.commande;
+
+public class CommandeFactoryValidee extends CommandeFactory {
+	 public Commande creerCommande() {
+	        return new CommandeValidee();
+	    }
+}

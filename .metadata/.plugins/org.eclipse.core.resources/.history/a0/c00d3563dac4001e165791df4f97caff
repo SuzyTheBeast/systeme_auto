@@ -1,0 +1,16 @@
+package main.java.vehicule;
+
+interface Vehicule {
+	public int id=0;
+	public String marque="";
+	public String modele="";
+	public String annee_fabrication="";
+	public float prix=0; 
+	public String options_disponible="";
+	public int stock_disponible="";
+	
+	
+	
+	public abstract String obtenirDetails();
+	public abstract boolean verifierDisponibilite();
+}
